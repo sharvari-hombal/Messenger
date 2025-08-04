@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(to right, #fffde7, #fef9c3);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(252, 211, 77, 0.5); /* Soft yellow */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fcd34d;
+}
